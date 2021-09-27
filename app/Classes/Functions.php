@@ -60,7 +60,7 @@ class Functions extends Connection{
         }
     }
     
-
+    //Transforma XML em array
     public function XML2Array(\SimpleXMLElement $dadosCEP)
     {
         $array = array();
